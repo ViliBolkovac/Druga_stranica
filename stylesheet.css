@@ -1,1 +1,39 @@
-body {background: color #222831;margin: 0px ;padding: 0px;}
+body {background-color: #222831;
+      margin: 20px ;
+      padding: 0px;
+      display: flex;}
+
+nav {background-color: #393e46;
+      width: 100px;
+     z-index: 1;
+     overflow-x: hidden;
+     position: fixed ;
+     border-radius: 40px;
+     display: flex;
+     
+      }
+nav ul {
+      list-style-type: none;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+     
+}
+nav ul li{padding-top: 30px;
+            padding-bottom: 30px;
+}
+
+nav ul li a {text-decoration: none;
+             color: #eeeeee;
+             transition: 600ms ease;}
+
+nav ul li a:hover{color:#00adb5;}
+
+h1 {margin-left: 140px;
+    margin-top: 0;
+    color: #eeeeee;
+    
+    
+    }
+
+.logoutbtn:hover{color:red; }
